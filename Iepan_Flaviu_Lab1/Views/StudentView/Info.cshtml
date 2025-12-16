@@ -1,0 +1,8 @@
+﻿@model Student
+<h2>Student</h2>
+
+<p>@ViewBag.Message</p>
+<p>Current time: @(((DateTime)ViewData["Time"]).ToString("g"))</p>
+
+<p>Nume: @Model.Name</p>
+<p>Vârstă: @Model.Age</p>
